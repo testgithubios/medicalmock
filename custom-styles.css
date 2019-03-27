@@ -125,7 +125,7 @@ ul > li > a.fa-home{
 
 @media (max-width: 991px){
     .search-form {
-        width: 20%;
+        width: 17%;
     }
 }
 
@@ -133,6 +133,10 @@ ul > li > a.fa-home{
 {
     .search-form {
         width: 95%;
+    }
+
+    .right-side{
+        border-top: 1px solid #e31837;
     }
 }
 
@@ -474,4 +478,16 @@ footer .container h6{
 .treatment ul > li:hover{
     color: #e31837;
     text-decoration: underline;
+}
+
+.header-underline{
+    border-bottom: 3px solid #e31837;
+}
+
+.search-form_toggle:before{
+    color: #e31837;
+}
+
+hr {
+    border-top: 1px solid #e31837;
 }
