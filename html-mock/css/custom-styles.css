@@ -126,6 +126,12 @@ ul > li > a.fa-home{
     .right-side{
         border-top: 1px solid #e31837;
     }
+    header .search-form{
+        width: 95% !important;
+    }
+    .mobile-search{
+        border-radius: 20px;
+    }
 }
 
 ul.megamenu{
@@ -334,7 +340,7 @@ ul.megamenu ul{
     text-align: center;
     letter-spacing: 3px;
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 30px;
     line-height: 28px;
     color: #fff;
 }
@@ -503,17 +509,29 @@ header .help-box{
     width: 40%;
 }
 header .search-form{
-    width: 93%;
+    width: 81%;
 }
 
 header .search-form_input{
     height: 25px;
+    margin-left: 10px;
 }
 
 .carousel-caption .more{
-    background-color: unset;
-    border: 1px solid #212121;
+    width: 190px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid #212121;
+    letter-spacing: 2px;
+    font-size: 12px;
     color: #212121;
+    line-height: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    z-index: 100;
+    background-color: unset;
 }
 
 .carousel-caption .more:hover{
@@ -537,6 +555,41 @@ header .search-form_input{
 .view-more-news{
     text-align: center;
 }
+.view-more-news .more{
+    width: 190px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid #212121;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #212121;
+    line-height: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    z-index: 100;
+    background-color: unset;
+}
+
+.btn-view-product{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    z-index: 100;
+}
+
+.view-more-news .more:hover{
+    background-color: #e31837;
+    color: #fff;
+    border: unset;
+}
 
 .logo-footer{
     width: 100px;
@@ -546,6 +599,9 @@ header .search-form_input{
 footer h4{
     color: #fff;
     line-height: 1.0;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 5px;
 }
 
 .small-info{
@@ -569,6 +625,33 @@ header .top-sect{
 }
 
 img.logo-header{
-    width: 200px;
-    height: 70px;
+    width: 160px;
+    height: 60px;
+}
+
+.help-box small.smalltitle:after {
+    content: "|";
+    display: inline-block;
+    margin: 0 0 0 4px;
+    vertical-align: top;
+    color: #949495;
+}
+
+.search-form_label{
+    padding: unset;
+    border-radius: 20px;
+}
+
+.search-form_submit{
+    top: 0px;
+    right: 5px;
+}
+
+.search-form_submit:hover{
+    color: #e31837;
+}
+
+.sologan{
+    padding-bottom: 20px;
+    padding-top: 25px
 }
