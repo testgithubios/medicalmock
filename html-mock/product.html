@@ -39,6 +39,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
   <div class="page">
@@ -49,15 +52,20 @@
       <div class="container top-sect">
         <div class="navbar-header">
           <h1 class="navbar-brand">
-            <img src="images/tylenol.png"
+            <img class="logo-header" src="images/logo.png">
           </h1>
           <a class="search-form_toggle" href="#"></a>
         </div>
 
         <div class="help-box text-right">
-          <p>HotLine</p>
-          <a href="callto:#">800-2345-6789</a>
-          <small><span>Hours:</span>  6am-4pm PST M-Th; &nbsp;6am-3pm PST Fri</small>
+          <p></p>
+          <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">
+            <label class="search-form_label">
+              <input class="search-form_input" type="text" name="s" autocomplete="off" placeholder=""/>
+              <span class="search-form_liveout"></span>
+            </label>
+            <button class="search-form_submit fa-search" type="submit"></button>
+          </form>
         </div>
       </div>
 
@@ -68,10 +76,10 @@
 
             <div class="">  
               <ul class="nav navbar-nav sf-menu" data-type="navbar">
-                <li class="">
+                <li class="active">
                   <a  class="fa-home" href="index.html"><span class="under-line" aria-hidden="true"></span></a>
                 </li>
-                <li class="active">
+                <li>
                   <a href="product.html">Sản Phẩm<span class="under-line" aria-hidden="true"></span></a>
                 </li>
                 <li class="dropdown menu-large">
@@ -134,9 +142,9 @@
                   </ul>
                 </li>                
                 <li >
-                        <a   href="index-2.html">
-                          Điều Trị<span class="under-line" aria-hidden="true"></span>
-                        </a>
+                  <a   href="index-2.html">
+                    Điều Trị<span class="under-line" aria-hidden="true"></span>
+                  </a>
                   <!-- <ul class="dropdown-menu megamenu row" style="width: 135px;">
                     <li>
                       <ul>
@@ -155,13 +163,25 @@
                     </ul> -->
                 </li>
                 
-                <li >
+                <li>
                   <a href="index-1.html">Lịch Sử CT<span class="under-line" aria-hidden="true"></span></a>
+                </li>
+                <li>
+                  <a href="#">Hỏi Đáp<span class="under-line" aria-hidden="true"></span></a>
+                </li>
+                <li>
+                  <a href="#">Tin Tức<span class="under-line" aria-hidden="true"></span></a>
+                </li>
+                <li>
+                  <a href="#">Biểu Mẫu<span class="under-line" aria-hidden="true"></span></a>
+                </li>
+                <li>
+                  <a href="#">Liên Hệ<span class="under-line" aria-hidden="true"></span></a>
                 </li>
               </ul>                           
             </div>
         </nav>   
-        <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">
+        <form class="search-form mobile-search" action="search.php" method="GET" accept-charset="utf-8">
           <label class="search-form_label">
             <input class="search-form_input" type="text" name="s" autocomplete="off" placeholder=""/>
             <span class="search-form_liveout"></span>
