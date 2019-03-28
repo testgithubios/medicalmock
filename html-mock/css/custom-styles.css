@@ -539,7 +539,7 @@ header .search-form_input{
 }
 
 .logo-footer{
-    width: 65px;
+    width: 100px;
     height: 65px;
 }
 
@@ -553,4 +553,22 @@ footer h4{
 }
 .small-info i{
     margin-right: 15px;
+    font-style: unset;
+}
+
+.navbar-header{
+    padding: 10px 10px 15px;
+}
+
+header .top-sect .help-box p{
+    margin-top: 23px;
+}
+
+header .top-sect{
+    padding-top: unset;
+}
+
+img.logo-header{
+    width: 200px;
+    height: 70px;
 }
