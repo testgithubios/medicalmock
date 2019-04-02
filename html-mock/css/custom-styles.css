@@ -660,7 +660,7 @@ img.logo-header{
 
 @media screen and (max-height: 800px){
     .carousel-inner img{
-        height: 640px;
+        height: 465px
     }
 }
 
